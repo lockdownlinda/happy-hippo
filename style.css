@@ -27,6 +27,8 @@ body{
     font-weight:600;
     color:#4285F4;
     margin-bottom:30px;
+    transform:translateX(-35px);
+
 }
 
 input{
