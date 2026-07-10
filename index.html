@@ -1,58 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>happy hippo</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ethan & lin 💍</title>
 
-    <link rel="stylesheet" href="style.css">
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'DM Sans',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#fff;
+}
+
+.container{
+    text-align:center;
+    width:420px;
+    max-width:90vw;
+}
+
+.logo{
+    font-size:60px;
+    color:#4285F4;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.title{
+    font-size:24px;
+    color:#202124;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#5f6368;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+input{
+
+    width:100%;
+
+    padding:14px 20px;
+
+    border:1px solid #dfe1e5;
+
+    border-radius:25px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+input:focus{
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+}
+
+button{
+
+    margin-top:25px;
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#4285F4;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+button:hover{
+    opacity:.9;
+}
+
+#error{
+    color:#d93025;
+    margin-top:18px;
+}
+
+.hint{
+    margin-top:40px;
+    color:#9aa0a6;
+    font-size:13px;
+}
+
+</style>
+
 </head>
-<body class="home">
 
-    <div class="container">
+<body>
 
-        <h1 class="logo">you fucking traitor 🤪</h1>
+<div class="container">
 
-        <form id="searchForm">
+<div class="logo">
+happy hippo
+</div>
 
-            <input
-                id="searchInput"
-                type="text"
-                placeholder="ethan is my favourite happy hippo"
-                autocomplete="off"
-            >
+<div class="title">
+Authentication Required
+</div>
 
-            <button type="submit">
-                Search
-            </button>
+<div class="subtitle">
+This search engine is reserved for one very special user.
+<br><br>
+Please authenticate to continue.
+❤️
+</div>
 
-        </form>
-        
-        <br>
-        <br>
+<input
+id="password"
+type="password"
+placeholder="Enter password">
 
-    <div class="trending-list">
+<button onclick="login()">
+Unlock happy hippo
+</button>
 
-        <a href="results.html?q=best%20boyfriend">best boyfriend 😍</a>
+<div id="error"></div>
 
-        <a href="results.html?q=i%20love%20you">i love you ❤️</a>
-
-        <a href="results.html?q=ethan">ethan 🤩</a>
-
-        <a href="results.html?q=chopped">chopped 😳 </a>
-          <a href="results.html?q=lin">lin 😎 </a>
-
-    </div>
-
+<div class="hint">
+Authorized user access only.
 </div>
 
 </div>
 
-    </div>
+<script>
 
-<script src="script.js"></script>
+function login(){
+
+const password=document.getElementById("password").value;
+
+if(password==="ethan"){
+    window.location.href="home.html";
+}
+else{
+
+document.getElementById("error").innerHTML=
+"Authentication failed.";
+
+}
+
+}
+
+document.getElementById("password").addEventListener("keypress",function(e){
+
+if(e.key==="Enter"){
+login();
+}
+
+});
+
+</script>
+
 </body>
 </html>
