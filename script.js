@@ -62,7 +62,6 @@ const searches = {
             {
                 title: "supreme leader lin",
                 description: "welcome to the COC",
-                image: "assets/COC.mp4",
                 link: "#"
             }
         ]
@@ -73,7 +72,6 @@ const searches = {
             {
                 title: "hi ethan",
                 description: "i love you hehe",
-                image: "assets/love.mp4",
                 link: "#"
             }
         ]
@@ -136,9 +134,8 @@ const searches = {
     "sexy": {
         results: [
             {
-                title: "sexy dancer",
+                title: "sexy dancer ethan",
                 description: "looking for a job - pls hire me",
-                image: "assets/gogo dancer.mp4",
                 link: "#"
             }
         ]
@@ -329,7 +326,9 @@ if (resultsContainer) {
     "boyfriend": "best boyfriend",
     "gf": "girlfriend",
     "girl friend": "girlfriend",
-    "hippo": "happy hippo"
+    "hippo": "happy hippo",
+    "choco": "chocolate",
+    "bff": "best friends"
 };
 
 const fixedQuery = aliases[query?.toLowerCase()] || query?.toLowerCase();
