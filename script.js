@@ -290,6 +290,25 @@ const searches = {
                 }
             ]
     },
+    "cult": {
+        results: [
+            {
+                title: "cult of community aka the COC",
+                description: "welcome to the dark side, pls donate $$$",
+                link: "#" 
+                }
+            ]
+    },
+      "traitor": {
+        results: [
+            {
+                title: "YOU",
+                description: "ETHAN TU",
+                link: "#" 
+                }
+            ]
+    },
+
 
 };
 
