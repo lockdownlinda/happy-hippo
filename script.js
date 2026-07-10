@@ -290,7 +290,7 @@ const searches = {
                 }
             ]
     },
-    "cult": {
+        "cult": {
         results: [
             {
                 title: "cult of community aka the COC",
@@ -299,7 +299,7 @@ const searches = {
                 }
             ]
     },
-      "traitor": {
+        "traitor": {
         results: [
             {
                 title: "YOU",
