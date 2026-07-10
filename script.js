@@ -51,6 +51,7 @@ const searches = {
             {
                 title: "funniest person",
                 description: "duh your wifey???",
+                image: "assets/funny lin.jpeg",
                 link: "#"
             }
         ]
@@ -186,7 +187,6 @@ const searches = {
             {
                 title: "i love you too",
                 description: "🥺",
-
                 link: "#‚" 
                 }
             ]
@@ -214,6 +214,7 @@ const searches = {
             {
                 title: "CAUTION: addiction",
                 description: "i only play if they have pengu party 🐧",
+                image: "assets/tft.jpeg",
                 link: "#‚" 
                 }
             ]
@@ -268,6 +269,26 @@ const searches = {
             {
                 title: "🆘",
                 description: "long distance relationship not nice, pls make sure gf secures green card",
+                link: "#" 
+                }
+            ]
+    },
+     "bromance": {
+        results: [
+            {
+                title: "adorable",
+                description: "brothers",
+                image: "assets/bromance.jpeg",
+                link: "#" 
+                }
+            ]
+    },
+       "artist": {
+        results: [
+            {
+                title: "history in the making",
+                description: "nice art incoming",
+                image: "assets/artist ethan.jpeg",
                 link: "#" 
                 }
             ]
