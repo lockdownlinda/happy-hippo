@@ -41,7 +41,7 @@ const searches = {
                 title: "Me ❤️",
                 description: "1 result found. World's cutest girlfriend.",
                 image: "assets/lin flowers.jpeg",
-                link: "#"
+                link: "gf"
             }
         ]
     },
@@ -52,7 +52,7 @@ const searches = {
                 title: "funniest person",
                 description: "duh your wifey???",
                 image: "assets/funny lin.jpeg",
-                link: "#"
+                link: "funniest"
             }
         ]
     },
@@ -62,7 +62,7 @@ const searches = {
             {
                 title: "supreme leader lin",
                 description: "welcome to the COC",
-                link: "#"
+                link: "lin"
             }
         ]
     },
@@ -72,7 +72,7 @@ const searches = {
             {
                 title: "hi ethan",
                 description: "i love you hehe",
-                link: "#"
+                link: "love"
             }
         ]
     },
@@ -94,7 +94,7 @@ const searches = {
                 title: "chopped city boi",
                 description: "chinese",
                 image: "assets/chopped chinese.jpeg",
-                link: "#"
+                link: "chopped"
             }
         ]
     },
@@ -105,7 +105,7 @@ const searches = {
                 title: "by artist ethan",
                 description: "so talented 😳",
                 image: "assets/ethan drawing.jpeg",
-                link: "#"
+                link: "art"
             }
         ]
     },
@@ -115,7 +115,7 @@ const searches = {
             {
                 title: "Did you mean:",
                 description: "ME",
-                link: "#"
+                link: "cute"
             }
         ]
     },
@@ -136,7 +136,7 @@ const searches = {
             {
                 title: "sexy dancer ethan",
                 description: "looking for a job - pls hire me",
-                link: "#"
+                link: "sexy"
             }
         ]
     },
@@ -146,7 +146,7 @@ const searches = {
                 title: "biceps burning",
                 description: "flex",
                 image: "assets/ethanstrong.jpeg",
-                link: "#"
+                link: "strong"
             }
         ]
     },
@@ -156,7 +156,7 @@ const searches = {
                 title: "hehe",
                 description: "this was us on day 2 i think hehe",
                 image: "assets/us.jpeg",
-                link: "#" 
+                link: "couple" 
                 }
             ]
     },
@@ -166,7 +166,7 @@ const searches = {
                 title: "the OG simp 😎",
                 description: "ETHAN TU",
                 image: "assets/simp.jpeg",
-                link: "#" 
+                link: "simp" 
                 }
             ]
     },
@@ -175,7 +175,7 @@ const searches = {
             {
                 title: "ethan and lin",
                 description: "but also the best bed friends 🛌",
-                link: "#" 
+                link: "bff" 
                 }
             ]
     },
@@ -184,7 +184,7 @@ const searches = {
             {
                 title: "i love you too",
                 description: "🥺",
-                link: "#‚" 
+                link: "#ily" 
                 }
             ]
     },
@@ -193,7 +193,7 @@ const searches = {
             {
                 title: "hello ethan",
                 description: "if you are bored, just call me 📲",
-                link: "#‚" 
+                link: "#hello" 
                 }
             ]
     },
@@ -202,7 +202,7 @@ const searches = {
             {
                 title: "hi there",
                 description: "how can i help siiiir 😳",
-                link: "#‚" 
+                link: "hi" 
                 }
             ]
     },
@@ -212,7 +212,7 @@ const searches = {
                 title: "CAUTION: addiction",
                 description: "i only play if they have pengu party 🐧",
                 image: "assets/tft.jpeg",
-                link: "#‚" 
+                link: "tft" 
                 }
             ]
     },
@@ -221,7 +221,7 @@ const searches = {
             {
                 title: "the motherland that brought us together 🇻🇳",
                 description: "you are still a traitor for not showing up to the COC",
-                link: "#‚" 
+                link: "vietnam" 
                 }
             ]
     },
@@ -230,7 +230,7 @@ const searches = {
             {
                 title: "NO‼️",
                 description: "stop it 🤬",
-                link: "#‚" 
+                link: "chocolate" 
                 }
             ]
     },
@@ -239,7 +239,7 @@ const searches = {
             {
                 title: "Vlog TBD",
                 description: "please be patient ... im slow 🫣",
-                link: "#‚" 
+                link: "busan" 
                 }
             ]
     },
@@ -266,7 +266,7 @@ const searches = {
             {
                 title: "🆘",
                 description: "long distance relationship not nice, pls make sure gf secures green card",
-                link: "#" 
+                link: "ldr" 
                 }
             ]
     },
@@ -276,7 +276,7 @@ const searches = {
                 title: "adorable",
                 description: "brothers",
                 image: "assets/bromance.jpeg",
-                link: "#" 
+                link: "bromance" 
                 }
             ]
     },
@@ -286,7 +286,7 @@ const searches = {
                 title: "history in the making",
                 description: "nice art incoming",
                 image: "assets/artist ethan.jpeg",
-                link: "#" 
+                link: "artist" 
                 }
             ]
     },
@@ -295,7 +295,7 @@ const searches = {
             {
                 title: "cult of community aka the COC",
                 description: "welcome to the dark side, pls donate $$$",
-                link: "#" 
+                link: "cult" 
                 }
             ]
     },
@@ -304,7 +304,16 @@ const searches = {
             {
                 title: "YOU",
                 description: "ETHAN TU",
-                link: "#" 
+                link: "traitor" 
+                }
+            ]
+    },
+       "thanks": {
+        results: [
+            {
+                title: "awwww thank you",
+                description: "the way you say sounds so cute but i never know if you actually like stuff when you just say aww thanks 😭",
+                link: "thanks" 
                 }
             ]
     },
@@ -347,7 +356,8 @@ if (resultsContainer) {
     "girl friend": "girlfriend",
     "hippo": "happy hippo",
     "choco": "chocolate",
-    "bff": "best friends"
+    "bff": "best friends",
+    "coc": "cult"
 };
 
 const fixedQuery = aliases[query?.toLowerCase()] || query?.toLowerCase();
