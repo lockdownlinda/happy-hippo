@@ -323,8 +323,18 @@ if (resultsInput && query) {
 
 if (resultsContainer) {
 
-    const search = searches[query?.toLowerCase()];
+  const aliases = {
+    "ily": "i love you",
+    "bf": "best boyfriend",
+    "boyfriend": "best boyfriend",
+    "gf": "girlfriend",
+    "girl friend": "girlfriend",
+    "hippo": "happy hippo"
+};
 
+const fixedQuery = aliases[query?.toLowerCase()] || query?.toLowerCase();
+
+const search = searches[fixedQuery];
     if (search) {
 
         resultsContainer.innerHTML = "";
