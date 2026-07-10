@@ -317,8 +317,15 @@ const searches = {
                 }
             ]
     },
-
-
+      "tech": {
+        results: [
+            {
+                title: "tech bro",
+                description: "😭",
+                link: "tech" 
+                }
+            ]
+    },
 };
 
 // -----------------------------
