@@ -160,6 +160,7 @@ button:hover{
     display:flex;
     flex-wrap:wrap;
     gap:12px;
+    transform:translateX(-20px);
 }
 
 .trending-list a{
